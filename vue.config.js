@@ -1,5 +1,4 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-      ? '/weather-app/'   //任意
-      : '/'
+    publicPath: '/vue_test/',
+    outputDir: 'docs'
   }
